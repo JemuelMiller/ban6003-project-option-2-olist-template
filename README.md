@@ -38,6 +38,8 @@ This option uses e-commerce orders, customers, order items, payments, products, 
 
 Important: `order_items.csv`, `order_payments.csv`, and `order_reviews.csv` may have multiple rows per order. Aggregate lower-level tables by `order_id` before merging them into an order-level ABT.
 
+See `data/README.md` for row meaning, expected keys, target eligibility, and join guidance for each file.
+
 ## Working Environment
 
 Recommended path:
@@ -75,6 +77,7 @@ Your final repository should include:
 - HTML report exported from the notebook
 - final ABT, if required
 - data dictionary
+- model metrics or structured analysis outputs
 - presentation or recording, according to Canvas instructions
 
 If your repository is private, make sure the instructor has access before submitting the link.
